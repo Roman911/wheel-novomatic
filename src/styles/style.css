@@ -147,15 +147,13 @@
     transform: var(--transform);
     transition: transform 1.5s ease-in-out;
 
-    &:nth-child(2n) {
-        .wheel__text {
-            color: white;
-        }
-
+    img {
+        width: 100%;
     }
 }
 
 .wheel__text {
+    display: none;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
